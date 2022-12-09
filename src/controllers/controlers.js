@@ -26,6 +26,7 @@ postArticle = (req, res) => {
     req.body.titre,
     req.body.contenu,
     req.body.auteur,
+    
     req.body.datecreated,
     req.body.dateedited,
   ];
